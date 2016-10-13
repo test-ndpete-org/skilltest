@@ -1,0 +1,12 @@
+[github]
+github_user =
+github_password =
+github_token =  
+organization =
+
+[email]
+email_user =
+email_password =
+
+[aws]
+bucket_name =
