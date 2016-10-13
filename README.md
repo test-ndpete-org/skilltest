@@ -1,5 +1,5 @@
 # Purpose
-The purpose of the application is to utilize the github api to scan an organization's members and identify users who don't have their name filled out in their profile. Users identified are then prompted to add their name to their profile via email. Finally a csv of all users for that organization is uploaded to an S3 bucket.
+The purpose of this project is to utilize the github api to scan an organization's members and identify users who don't have their names filled out in their profile. Users identified are then prompted to add their name to their profile via email. Finally a csv of all users for that organization is uploaded to an S3 bucket.
 
 # Installation
 To install simply run `git clone https://github.com/ndpete/skilltest.git`
