@@ -1,0 +1,62 @@
+$schemaver: '1.0'
+aliases:
+- <alias>
+assignment_group: <gro:group name>
+ddd:
+  business_domain: <business domain>
+  context_map_url: <url>
+  ubiquitous_language_url: <url>
+developed_by_byu: true
+federation_json_url: <repo url>/.repo-meta.[yml|json]
+links:
+  source_repo_url: <repo url>
+  swagger_urls:
+  - <url1>
+  - <url2>
+  system_documentation_url: <url>
+maintained_by:
+- <github username of developer with most commits and still employed at OIT>
+- <github username of developer with 2nd most commits and still employed at OIT>
+microservice: true
+name: <name>
+notes: <notes>
+short_description: <short description>
+stages:
+  production:
+    aws_account: <one of the AWS Account CI names in the CMDB>
+    hosting_location: <AWS, BYU, Other>
+    relationships:
+      depends_on:
+        db_read_only:
+        - <database name>
+        db_read_write:
+        - <database name>[:<stage name>]
+        software:
+        - <software name>[:<stage name>]
+      reverse_proxy: <server cluster name>
+      runs_on:
+        blade_server:
+        - <blade server>
+        rack_server:
+        - <rack server>
+        server_cluster:
+        - <server cluster>
+        virtual_server:
+        - <virtual server>
+      supports:
+        service:
+        - <service name>
+        software:
+        - <software name>[:<stage name>]
+    urls:
+      physical_url: <url>
+      product_page: <url>
+      virtual_url: <url>
+tags:
+- data-sensitivity: ''
+technologies_used:
+- PHP
+- Java
+- AngularJS
+type: ''
+x-anything: null
