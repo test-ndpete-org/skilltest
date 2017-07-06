@@ -1,0 +1,64 @@
+{
+	"$schemaver": 1.1,
+	"name": "skilltest",
+	"type": "Library",
+	"aliases": null,
+	"short_description": "Github & AWS S3 API Skill Test",
+	"assignment_group": "gro:oit-app dev  student life apps",
+	"notes": null,
+	"maintained_by": [
+		"ndpete",
+		"brettbeatty"
+	],
+	"developed_by_byu": true,
+	"ddd": {
+		"business_domain": null,
+		"ubiquitous_language_url": null,
+		"context_map_url": null
+	},
+	"links": {
+		"system_documentation_url": "https://github.com/test-ndpete-org/skilltest",
+		"source_repo_url": "https://github.com/test-ndpete-org/skilltest",
+		"swagger_urls": null
+	},
+	"microservice": true,
+	"technologies_used": [
+		"Python"
+	],
+	"stages": {
+		"development": {
+			"urls": {
+				"product_page": null,
+				"physical_url": null,
+				"virtual_url": null
+			},
+			"hosting_location": null,
+			"aws_account": null,
+			"relationships": {
+				"depends_on": {
+					"db_read_write": null,
+					"db_read_only": null,
+					"software": null
+				},
+				"supports": {
+					"software": null,
+					"service": null
+				},
+				"reverse_proxy": null,
+				"runs_on": {
+					"server_cluster": null,
+					"virtual_server": null,
+					"rack_server": null,
+					"blade_server": null
+				}
+			}
+		}
+	},
+	"tags": {
+		"data-sensitivity": "confidential",
+		"env": "dev",
+		"team": "gro:oit-app dev  student life apps",
+		"app": "skilltest"
+	},
+	"federation_json_url": "https://raw.githubusercontent.com/test-ndpete-org/skilltest/master/.repo-meta.yml"
+}
