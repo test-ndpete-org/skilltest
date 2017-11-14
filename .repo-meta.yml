@@ -1,4 +1,3 @@
----
 $schemaver: '2.0'
 repo_url: https://github.com/test-ndpete-org/skilltest
 software:
@@ -13,38 +12,38 @@ software:
       - brettbeatty
     developed_by_byu: true
     ddd:
-        business_domain:
-        ubiquitous_language_url:
-        context_map_url:
+      business_domain:
+      ubiquitous_language_url:
+      context_map_url:
     links:
-        system_documentation_url: https://github.com/test-ndpete-org/skilltest
-        swagger_urls:
+      system_documentation_url: https://github.com/test-ndpete-org/skilltest
+      swagger_urls:
     microservice: true
     technologies_used:
       - Python
     stages:
-        development:
-            urls:
-                product_page:
-                physical_url:
-                virtual_url:
-            hosting_location:
-            aws_account:
-            relationships:
-                depends_on:
-                    db_read_write:
-                    db_read_only:
-                    software:
-                supports:
-                    software:
-                    service:
-                reverse_proxy:
-                runs_on:
-                    server_cluster:
-                    virtual_server:
-                    rack_server:
-                    blade_server:
+      development:
+        urls:
+          product_page:
+          physical_url:
+          virtual_url:
+        hosting_location:
+        aws_account:
+        relationships:
+          depends_on:
+            db_read_write:
+            db_read_only:
+            software:
+          supports:
+            software:
+            service:
+          reverse_proxy:
+          runs_on:
+            server_cluster:
+            virtual_server:
+            rack_server:
+            blade_server:
     tags:
-        data-sensitivity: confidential
-        team: gro:oit-app dev  student life apps
-        app: skilltest
+      data-sensitivity: confidential
+      team: gro:oit-app dev  student life apps
+      app: skilltest
